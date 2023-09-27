@@ -1,0 +1,177 @@
+.money-details-main-container {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.balance-details-container {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  gap: 16px;
+  padding: 14px 20px;
+  width: max-content;
+}
+.money-details-image {
+  width: 50px;
+  height: 50px;
+}
+.money-details-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #7e858e;
+  margin: 0px;
+}
+.money-details-amount {
+  font-size: 16px;
+  font-weight: 600;
+  color: #475569;
+  margin: 8px 0px 0px 0px;
+}
+.income-details-container {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  gap: 16px;
+  padding: 14px 20px;
+  width: max-content;
+}
+.expenses-details-container {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  gap: 16px;
+  padding: 14px 20px;
+  width: max-content;
+}
+@media (max-width: 768px) {
+  .money-details-main-container {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .balance-details-container {
+    width: 250px;
+  }
+  .expenses-details-container {
+    width: 250px;
+  }
+  .income-details-container {
+    width: 250px;
+  }
+}
+/*
+ Write your CSS here
+.money-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .money-details-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.balance-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ecfccb;
+  width: 100%;
+  border: 1px solid #84cc16;
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .balance-container {
+    width: 30%;
+    margin-right: 0px;
+  }
+}
+
+.details-img {
+  width: 64px;
+  height: 64px;
+  margin: 24px;
+}
+
+.details-text {
+  color: #475569;
+  font-size: 12px;
+  font-family: 'Roboto';
+  line-height: 1.7;
+  margin: 0px;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .details-text {
+    font-size: 14px;
+  }
+}
+
+.details-money {
+  color: #475569;
+  font-size: 18px;
+  font-family: 'Roboto';
+  line-height: 1.3;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .details-money {
+    font-size: 24px;
+  }
+}
+
+.income-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #cffafe;
+  width: 100%;
+  border: 1px solid #06b6d4;
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .income-container {
+    width: 30%;
+    margin-right: 0px;
+  }
+}
+
+.expenses-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ede9fe;
+  width: 100%;
+  min-width: 200px;
+  border: 1px solid #7c3aed;
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .expenses-container {
+    width: 30%;
+    margin-right: 0px;
+  }
+}
+ */
